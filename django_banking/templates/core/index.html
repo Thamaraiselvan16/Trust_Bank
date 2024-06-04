@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block head_title %}TrustBank{% endblock %}
+{% block content %}
+<div class="container mx-10 flex flex-col md:flex-row items-center my-12 md:my-24">
+    <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 bg-white rounded-2xl" style="background-color: rgba(255, 255, 255, 0.7);">
+        <h1 class="font-bold text-4xl my-4">TrustBank</h1>
+        <p class="leading-normal mb-4">
+            For my project, I developed an application called TrustBank. This application includes features such as depositing and withdrawing amounts, viewing balance history, and user registration and login pages. The deposit function allows users to securely add funds to their account, while the withdraw function enables them to take out funds as needed. The balance history feature provides a detailed record of all transactions, ensuring users can easily track their financial activity. Additionally, the registration and login pages ensure that only authorized users can access their accounts, maintaining the security and integrity of their personal information. Overall, TrustBank offers a comprehensive and secure solution for managing personal finances.
+        </p>
+        <div class="flex justify-end w-full">
+            <a href="{% url 'accounts:user_registration' %}" class="button-green shadow hover:shadow-lg py-2 px-4 rounded-none border border-gray-900 hover:border-transparent">Register</a>
+        </div>
+    </div>
+    <div class="w-full lg:w-1/2 lg:py-6 text-center">
+        <h1 style="font-size: 15rem; color: #b4c3c8;" class="font-black text-opacity-50">₹₹</h1>
+    </div>
+    
+</div>
+{% endblock %}

@@ -1,0 +1,122 @@
+/* styles.css */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5cf;
+    background-image: url("https://www.frost.com/wp-content/uploads/2021/11/GettyImages-1175502114-1.jpg"); /* Replace with the absolute path of your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(30px);
+    display: flex;
+    animation: move 1s infinite;
+    transition: move 0.2s ease-in;
+    display: inline;
+}
+
+body #main {
+    padding-bottom: 5em;
+}
+
+footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.button-green:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.bg-b4c3c8 {
+    background-color: #4CAF50;
+}
+
+.custom-bg-color {
+    background-color: #1208083b;
+}
+
+
+
+.custom-button {
+    background-color: #4CAF50;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+
+.custom-bg-color1 {
+    background-color: #1208083b; /* Apply the desired background color */
+}
+
+    /* Table styles */
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+        /* box-shadow: 0 4px 6px rgba(222, 21, 21, 0.1); */
+    }
+
+    .table thead {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .table th,
+    .table td {
+        padding: 16px;
+        text-align:center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* Row hover effect */
+    .table tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+        color: white;
+    }
+
+    /* Text alignment */
+    .table th.text-center,
+    .table td.text-center {
+        text-align: center;
+    }
+
+    .table th.text-right,
+    .table td.text-right {
+        text-align: right;
+    }
+
+
+    /* styles.css */
+.custom-bg-color2 {
+    background-color: rgba(255, 255, 255, 0.75); /* Adjust the last value (0.75) to change the opacity */
+}
+
