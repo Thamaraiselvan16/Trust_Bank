@@ -9,6 +9,7 @@ Welcome to Trust Bank, a project designed to provide a seamless online banking e
 - **Deposit Amount**: Deposit funds into your account.
 - **Withdraw Amount**: Withdraw funds from your account.
 - **Transaction History**: View and track all your past transactions.
+- **video link**: [https://drive.google.com/file/d/11z-2BQVXCbo3rFy_2eV9scHQUZKjKAqq/view?usp=sharing]
 
 ## Technologies Used
 
